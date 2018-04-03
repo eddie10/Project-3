@@ -7,13 +7,16 @@ and open the template in the editor.
 
 <html>
     <head>
+        
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="./login.css" />
         <title>Login</title>
     </head>
-    <body>
+    <body id="login">
+    <center>
         <h1>Login Page</h1>
         <h2>please use your credentials to login to the shopping page</h2>
-        <form>
+        <form action="./customer.jsp">
             <table>
                 <tr>
                 <th>
@@ -46,13 +49,17 @@ and open the template in the editor.
                 
             </table>
             
-            
+            <input type="submit" value="submit" />
             
             
             
         </form>
+        <form action="./manager.jsp">
+            
+            <input type="submit" value="manager page"> 
+            
+        </form>
         
-        
-        
+    </center>  
     </body>
 </html>
