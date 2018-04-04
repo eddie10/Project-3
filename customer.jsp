@@ -21,9 +21,11 @@
             <h1>
             Shopping Page
             </h1>
-           <p>Feel free to add items to your shopping cart!</p>
-
-           <input type="button" value="Checkout" />
+            <p>Feel free to add items to your shopping cart!</p>
+            <form action="./shopcart.jsp">
+             <input type="submit" value="shopping cart" />
+            </form>
+           
             <br/>
             <br/>
             <br/>
